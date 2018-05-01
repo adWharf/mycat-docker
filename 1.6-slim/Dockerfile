@@ -21,9 +21,8 @@ RUN apt-get update && \
     tar -zxvf mycat-${MYCAT_VERSION}.tar.gz && \
     cp -r mycat/* ${MYCAT_HOME} && \
     rm mycat-${MYCAT_VERSION}.tar.gz && \
-    rm -r mycat
-
-ADD conf/wrapper.conf ${MYCAT_HOME}/conf
+    rm -r mycat && \
+    sed 's/MaxDirectMemorySize=4G/MaxDirectMemorySize=2G/g; s/-Xmx4G/-Xmx2G/g; s/-Xmx1G/-Xmx512M/g;' conf/wrapper.conf
 
 WORKDIR ${MYCAT_HOME}
 
