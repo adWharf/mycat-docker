@@ -21,7 +21,7 @@ docker run \
     -v /my/path/of/logs:/opt/mycat/logs \
     -v myschema.xml:/opt/mycat/conf/schemal.xml \
     -v myserver.xml:/opt/mycat/conf/server.xml \
-    -v myrules.xml:/opt/mycat/conf/server.xml \
+    -v myrule.xml:/opt/mycat/conf/rule.xml \
     -p 3306:3306 \
     williamwxl/mycat
 ```
