@@ -1,3 +1,16 @@
+
+[![Docker Stars](https://img.shields.io/docker/stars/williamwxl/mycat.svg)](https://hub.docker.com/r/williamwxl/mycat/)
+
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/williamwxl/mycat.svg)](https://hub.docker.com/r/williamwxl/mycat/)
+
+
+[![Docker Automated build](https://img.shields.io/docker/automated/williamwxl/mycat.svg)](https://hub.docker.com/r/williamwxl/mycat/)
+
+
+[![Docker Build Status](https://img.shields.io/docker/build/williamwxl/mycat.svg)](https://hub.docker.com/r/williamwxl/mycat/)
+
+
 # mycat-docker
 Dockerfile for [MyCat](https://github.com/MyCATApache/Mycat-Server)
 
